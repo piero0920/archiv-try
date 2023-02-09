@@ -22,7 +22,7 @@ func Init() error {
 	}
 
 	logger.Debug.Println("[cronjob] registering job: twitch downloads")
-	if err := c.AddFunc("@every 1h", RunTwitchDownloads); err != nil {
+	if err := c.AddFunc("@every 5m", RunTwitchDownloads); err != nil {
 		return err
 	}
 

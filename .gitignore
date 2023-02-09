@@ -58,3 +58,6 @@ go.work
 .env
 docker-compose.yml
 fill_db.py
+
+data/
+archiv-frontend/

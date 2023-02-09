@@ -1,0 +1,12 @@
+api.wubbl0rz.tv {
+    root * /var/www/
+    @excludePaths {
+        not path /media/*
+    }
+    reverse_proxy @excludePaths localhost:5000
+    file_server
+    encode gzip
+    header * Cache-Control max-age=1
+    header Access-Control-Allow-Origin "*"
+    header Cross-Origin-Resource-Policy "*"
+}
