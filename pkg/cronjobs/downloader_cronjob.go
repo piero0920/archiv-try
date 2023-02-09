@@ -10,12 +10,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/AgileProggers/archiv-backend-go/pkg/database"
-	"github.com/AgileProggers/archiv-backend-go/pkg/external_apis"
-	"github.com/AgileProggers/archiv-backend-go/pkg/filesystem"
-	"github.com/AgileProggers/archiv-backend-go/pkg/logger"
-	"github.com/AgileProggers/archiv-backend-go/pkg/models"
-	"github.com/AgileProggers/archiv-backend-go/pkg/queries"
+	"github.com/piero0920/archiv-try/pkg/database"
+	"github.com/piero0920/archiv-try/pkg/external_apis"
+	"github.com/piero0920/archiv-try/pkg/filesystem"
+	"github.com/piero0920/archiv-try/pkg/logger"
+	"github.com/piero0920/archiv-try/pkg/models"
+	"github.com/piero0920/archiv-try/pkg/queries"
 )
 
 func createSegmentsfromURL(input_url string, segmentsPath string, filename string, video_type string) error {

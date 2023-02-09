@@ -7,9 +7,9 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/AgileProggers/archiv-backend-go/pkg/models"
-	"github.com/AgileProggers/archiv-backend-go/pkg/queries"
 	"github.com/gin-gonic/gin"
+	"github.com/piero0920/archiv-try/pkg/models"
+	"github.com/piero0920/archiv-try/pkg/queries"
 )
 
 func SendStream(c *gin.Context) {

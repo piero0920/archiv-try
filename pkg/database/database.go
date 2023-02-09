@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/AgileProggers/archiv-backend-go/pkg/models"
+	"github.com/piero0920/archiv-try/pkg/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/AgileProggers/archiv-backend-go/pkg/filesystem"
-	"github.com/AgileProggers/archiv-backend-go/pkg/logger"
+	"github.com/piero0920/archiv-try/pkg/filesystem"
+	"github.com/piero0920/archiv-try/pkg/logger"
 )
 
 func recreate(p string, id string) error {

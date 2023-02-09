@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/AgileProggers/archiv-backend-go/pkg/logger"
+	"github.com/piero0920/archiv-try/pkg/logger"
 )
 
 type discordEmbedImage struct {

@@ -3,8 +3,8 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/AgileProggers/archiv-backend-go/pkg/database"
 	"github.com/gin-gonic/gin"
+	"github.com/piero0920/archiv-try/pkg/database"
 )
 
 func GetHealth(c *gin.Context) {

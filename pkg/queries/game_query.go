@@ -3,8 +3,8 @@ package queries
 import (
 	"errors"
 
-	"github.com/AgileProggers/archiv-backend-go/pkg/database"
-	"github.com/AgileProggers/archiv-backend-go/pkg/models"
+	"github.com/piero0920/archiv-try/pkg/database"
+	"github.com/piero0920/archiv-try/pkg/models"
 )
 
 func GetAllGames(g *[]models.Game, query models.Game, pagination Pagination) (*Pagination, error) {

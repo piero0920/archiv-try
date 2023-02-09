@@ -8,14 +8,14 @@ import (
 	"syscall"
 	"time"
 
-	_ "github.com/AgileProggers/archiv-backend-go/docs"
-	"github.com/AgileProggers/archiv-backend-go/pkg/chatlogger"
-	"github.com/AgileProggers/archiv-backend-go/pkg/cronjobs"
-	"github.com/AgileProggers/archiv-backend-go/pkg/database"
-	"github.com/AgileProggers/archiv-backend-go/pkg/helpers"
-	"github.com/AgileProggers/archiv-backend-go/pkg/logger"
-	"github.com/AgileProggers/archiv-backend-go/pkg/router"
 	_ "github.com/joho/godotenv/autoload"
+	_ "github.com/piero0920/archiv-try/docs"
+	"github.com/piero0920/archiv-try/pkg/chatlogger"
+	"github.com/piero0920/archiv-try/pkg/cronjobs"
+	"github.com/piero0920/archiv-try/pkg/database"
+	"github.com/piero0920/archiv-try/pkg/helpers"
+	"github.com/piero0920/archiv-try/pkg/logger"
+	"github.com/piero0920/archiv-try/pkg/router"
 )
 
 func main() {

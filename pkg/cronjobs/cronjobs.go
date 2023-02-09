@@ -1,8 +1,8 @@
 package cronjobs
 
 import (
-	"github.com/AgileProggers/archiv-backend-go/pkg/logger"
-	"github.com/AgileProggers/archiv-backend-go/pkg/router"
+	"github.com/piero0920/archiv-try/pkg/logger"
+	"github.com/piero0920/archiv-try/pkg/router"
 	"github.com/robfig/cron"
 )
 
