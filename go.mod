@@ -1,4 +1,4 @@
-module github.com/AgileProggers/archiv-backend-go
+module github.com/piero0920/archiv-try
 
 go 1.18
 
